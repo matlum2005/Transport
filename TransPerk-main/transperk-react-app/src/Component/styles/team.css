@@ -1,0 +1,88 @@
+body {
+    /* height: 70vh; */
+    background: linear-gradient(-100deg, white 50%, #ff6b35);
+    transition: background 0.3s ease;
+}
+
+.dark-mode body {
+    background: linear-gradient(-100deg, #1a1a1a 50%, #ff6b35);
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    color: #0c2e4b;
+    padding: 40% 5%;
+    border-radius: 15px;
+    transition: color 0.3s ease;
+}
+
+.dark-mode .img-text {
+    color: #ffffff;
+}
+
+.img-text h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.img-text p {
+    font-size: 20px;
+}
+
+.single-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-area {
+    position: absolute;
+    /* align-items: center; */
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.carousel-indicators button {
+    background: #ff6b35;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #f7931e;
+}
+
+.fa-style .fa-chevron-left{
+    position: relative;
+    left:-75px;
+    font-size: 25px;
+    color: #ff6b35;
+}
+.fa-style .fa-chevron-right{
+    position: relative;
+    right:-75px;
+    font-size: 25px;
+    color: #ff6b35;
+}
